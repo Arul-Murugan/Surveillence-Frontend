@@ -1,0 +1,63 @@
+.cameraContent{
+    border-right: 1px solid #e5e5e5;
+    box-shadow: 0px 0px 10px #e5e5e5;
+    height: 100vh;
+}
+
+.PropicStyle {
+    background-image: url('../assets/images/profile-picture.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px black;
+}
+.LogoStyle {
+    background-image: url('../assets/images/logo.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 8px black
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+  }
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+
+  .cameralistStyle {
+    background-image: url('../assets/images/image-1.png');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 8px #e5e5e5
+}
+.box {
+    transition: box-shadow .3s;
+}
+
+.box:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+
+  //map 
+agm-map {
+  height: 100vh;
+  width: 100%
+}
